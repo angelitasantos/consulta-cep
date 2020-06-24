@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JQuery e Ajax</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="banner">
+        <h1 id="cabecalho"></h1>
+    </header>
+
+    <div class="conteudo">
+      <div>
+        <input id="cep" placeholder="Digite o CEP">
+        <button type="button" id="botaoBuscar" onclick="consultarCEP()"></button>  
+      </div>
+        <button type="button" id="botaoLimpar" onclick="novaConsulta()"></button>  
+        
+      <div>
+        <p id="mensagem"></p>
+        <p id="logradouro"></p>
+        <p id="bairro"></p>
+        <p id="localidade"></p>
+        <p id="uf"></p>
+        <p id="codigopostal"></p>
+      </div>
+    </div>
+
+    <footer class="banner">
+      <h3 id="rodape"></h3>
+      <p id="copyright"></p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
